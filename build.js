@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const root = path.join(__dirname, '..');
+const root = __dirname;
 const src = path.join(root, 'index.html');
 const out = path.join(root, 'dist');
 
